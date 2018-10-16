@@ -1,0 +1,10 @@
+<view class='classic-contenter'>
+  <image 
+    class='classic-img'
+    src="{{ img }}"
+  ></image>
+  <image
+    class='tag' 
+    src="images/movie@tag.png"></image>
+  <text class='content'>{{ content }}</text>
+</view>

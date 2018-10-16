@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  flex-flow: row nowrap;
+  line-height: 1em;
+}
+
+.index-container::after {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 100%;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.plan {font-size: 16px;}
+.index {font-size: 30px;}
+
+.date-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.month {font-size: 13px;}
+.year {font-size: 11px;}
+.month, .year {line-height: 1em;}
